@@ -1,6 +1,12 @@
 {
   "abia": {
     "capital": "umuahia",
+    "population": "2,833,999",
+    "land_area": "6,320km2",
+    "nick_name": "God's Own State",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Imo State",
+    "lg_count": "17",
     "lga": [
       "aba north",
       "aba south",
@@ -23,6 +29,12 @@
   },
   "adamawa": {
     "capital": "yola",
+    "population": "3,168,101",
+    "land_area": "36,917km2",
+    "nick_name": "Land of Beauty",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Gongola State",
+    "lg_count": "21",
     "lga": [
       "demsa",
       "fufore",
@@ -49,6 +61,12 @@
   },
   "akwa-ibom": {
     "capital": "uyo",
+    "population": "3,920,208",
+    "land_area": "7,081",
+    "nick_name": "Land of Promise",
+    "date_created": "23 September 1987",
+    "preceding_entity": "Cross River State",
+    "lg_count": "31",
     "lga": [
       "abak",
       "eastern obolo",
@@ -85,6 +103,12 @@
 },
   "anambra": {
     "capital": "awka",
+    "population": "4,182,032",
+    "land_area": "4,844",
+    "nick_name": "Light of the Nation",
+    "date_created": "27 August 1991",
+    "preceding_entity": "(Old)Anambra State",
+    "lg_count": "21",
     "lga": [
       "aguata",
       "anambra east",
@@ -111,6 +135,12 @@
   },
   "bauchi": {
     "capital": "bauchi",
+    "population": "4,676,465",
+    "land_area": "45,837",
+    "nick_name": "Pearl of Tourism",
+    "date_created": "3 February 1976",
+    "preceding_entity": "North-Eastern State",
+    "lg_count": "19",
     "lga": [
       "alkaleri",
       "bauchi",
@@ -135,6 +165,12 @@
   },
   "bayelsa": {
     "capital": "yenagoa",
+    "population": "1,703,358",
+    "land_area": "10,773",
+    "nick_name": "Glory of all Lands",
+    "date_created": "1 October 1996",
+    "preceding_entity": "Rivers State",
+    "lg_count": "8",
     "lga": [
       "brass",
       "ekeremor",
@@ -148,6 +184,12 @@
   },
   "benue": {
     "capital": "makurdi",
+    "population": "4,219,244",
+    "land_area": "34,059",
+    "nick_name": "Food Basket of the Nation",
+    "date_created": "3 February 1976",
+    "preceding_entity": "Benue-Plateau State",
+    "lg_count": "23",
     "lga": [
       "ado",
       "agatu",
@@ -174,8 +216,14 @@
       "vandeikya"
     ]
   },
-  "bornu": {
+  "borno": {
     "capital": "maiduguri",
+    "population": "4,151,193",
+    "land_area": "72,898",
+    "nick_name": "Home of Peace",
+    "date_created": "3 February 1976",
+    "preceding_entity": "North-Eastern State",
+    "lg_count": "27",
     "lga": [
       "abadam",
       "askira/uba",
@@ -208,6 +256,12 @@
   },
   "cross-river": {
     "capital": "calabar",
+    "population": "2,888,966",
+    "land_area": "20,156",
+    "nick_name": "The People's Paradise",
+    "date_created": "27 May 1967",
+    "preceding_entity": "Eastern Region, Known as South-Eastern State from 1967 to 1976.",
+    "lg_count": "18",
     "lga": [
       "akpabuyo",
       "odukpani",
@@ -231,6 +285,12 @@
 },
   "delta": {
     "capital": "asaba",
+    "population": "4,098,391",
+    "land_area": "17,698",
+    "nick_name": "The Finger of God (formerly The Big Heart)",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Bendel State",
+    "lg_count": "25",
     "lga": [
       "oshimili",
       "aniocha",
@@ -261,6 +321,12 @@
   },
   "ebonyi": {
     "capital": "abakaliki",
+    "population": "2,173,501",
+    "land_area": "5,670",
+    "nick_name": "Salt of the Nation",
+    "date_created": "1 October 1996",
+    "preceding_entity": "Enugu State and Abia State",
+    "lg_count": "12",
     "lga": [
       "afikpo south",
       "afikpo north",
@@ -277,7 +343,13 @@
     ]
   },
   "edo": {
-    "capital": "benin city",
+    "capital": "benin-city",
+    "population": "3,218,332",
+    "land_area": "17,802",
+    "nick_name": "Heartbeat of Nigeria",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Bendel State",
+    "lg_count": "15",
     "lga": [
       "esan north-east",
       "esan central",
@@ -297,7 +369,13 @@
     ]
   },
   "ekiti": {
-    "capital": "ado ekiti",
+    "capital": "ado-ekiti",
+    "population": "2,384,212",
+    "land_area": "6,353",
+    "nick_name": "Fountain of Knowledge",
+    "date_created": "1 October 1996",
+    "preceding_entity": "Ondo State",
+    "lg_count": "16",
     "lga": [
       "ado",
       "ekiti-east",
@@ -319,6 +397,12 @@
   },
   "enugu": {
     "capital": "enugu",
+    "population": "3,257,298",
+    "land_area": "7,161",
+    "nick_name": "Coal City State (Jewel of the East)",
+    "date_created": "27 August 1991",
+    "preceding_entity": "(old) Anambra State",
+    "lg_count": "16",
     "lga": [
       "enugu south",
       "igbo-eze south",
@@ -340,6 +424,12 @@
   },
   "gombe": {
     "capital": "gombe",
+    "population": "2,353,879",
+    "land_area": "18,768",
+    "nick_name": "Jewel in the Savannah",
+    "date_created": "1 October 1996",
+    "preceding_entity": "Bauchi State",
+    "lg_count": "11",
     "lga": [
       "akko",
       "balanga",
@@ -356,6 +446,12 @@
   },
   "imo": {
     "capital": "owerri",
+    "population": "3,934,899",
+    "land_area": "5,100",
+    "nick_name": "Eastern Heartland (formerly Land of Hope)",
+    "date_created": "3 February 1976",
+    "preceding_entity": "East Central State",
+    "lg_count": "27",
     "lga": [
       "aboh-mbaise",
       "ahiazu-mbaise",
@@ -388,6 +484,12 @@
   },
   "jigawa": {
     "capital": "dutse",
+    "population": "4,348,649",
+    "land_area": "23,154",
+    "nick_name": "The New World",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Kano State",
+    "lg_count": "26",
     "lga": [
       "auyo",
       "babura",
@@ -419,6 +521,12 @@
   },
   "kaduna": {
     "capital": "kaduna",
+    "population": "6,066,562",
+    "land_area": "46,053",
+    "nick_name": "Centre of Education (formerly Liberal State)",
+    "date_created": "27 May 1967",
+    "preceding_entity": "Northern Region; known as North-Central State from 1967 to 1976",
+    "lg_count": "23",
     "lga": [
       "birni-gwari",
       "chikun",
@@ -447,6 +555,12 @@
   },
   "kano": {
     "capital": "kano",
+    "population": "9,383,682",
+    "land_area": "20,131",
+    "nick_name": "Centre of Commerce",
+    "date_created": "27 May 1967",
+    "preceding_entity": "Northern Region",
+    "lg_count": "45",
     "lga": [
       "ajingi",
       "albasu",
@@ -497,6 +611,12 @@
   },
   "katsina": {
     "capital": "kastina",
+    "population": "5,792,578",
+    "land_area": "24,192",
+    "nick_name": "Home of Hospitality",
+    "date_created": "23 September 1987",
+    "preceding_entity": "Kaduna State",
+    "lg_count": "34",
     "lga": [
       "bakori",
       "batagarawa",
@@ -536,6 +656,12 @@
   },
   "kebbi": {
     "capital": "birnin kebbi",
+    "population": "3,238,628",
+    "land_area": "36,800",
+    "nick_name": "Land of Equity",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Sokoto State",
+    "lg_count": "21",
     "lga": [
       "aleiro",
       "arewa-dandi",
@@ -562,6 +688,12 @@
   },
   "kogi": {
     "capital": "lokoja",
+    "population": "3,278,487",
+    "land_area": "29,833",
+    "nick_name": "The Confluence State",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Kwara State, Benue State",
+    "lg_count": "21",
     "lga": [
       "adavi",
       "ajaokuta",
@@ -588,6 +720,12 @@
   },
   "kwara": {
     "capital": "ilorin",
+    "population": "2,371,089",
+    "land_area": "36,825",
+    "nick_name": "State of Harmony",
+    "date_created": "27 May 1967",
+    "preceding_entity": "Northern Region; known as West Central State from 1967 to 1976.",
+    "lg_count": "15",
     "lga": [
       "asa",
       "baruten",
@@ -608,6 +746,12 @@
   },
   "lagos": {
     "capital": "ikeja",
+    "population": "9,013,534",
+    "land_area": "3,345",
+    "nick_name": "Centre of Excellence",
+    "date_created": "27 May 1967",
+    "preceding_entity": "Federal Territory of Lagos and Colony Province",
+    "lg_count": "20",
     "lga": [
       "agege",
       "ajeromi-ifelodun",
@@ -633,6 +777,12 @@
   },
   "nasarawa": {
     "capital": "lafia",
+    "population": "1,863,275",
+    "land_area": "27,117",
+    "nick_name": "Home of Solid Minerals",
+    "date_created": "1 October 1996",
+    "preceding_entity": "Plateau State",
+    "lg_count": "13",
     "lga": [
       "akwanga",
       "awe",
@@ -651,6 +801,12 @@
   },
   "niger": {
     "capital": "minna",
+    "population": "3,950,249",
+    "land_area": "76,363",
+    "nick_name": "The Power State",
+    "date_created": "3 February 1976",
+    "preceding_entity": "North-Western State",
+    "lg_count": "25",
     "lga": [
       "agaie",
       "agwara",
@@ -681,6 +837,12 @@
   },
   "ogun": {
     "capital": "abeokuta",
+    "population": "3,728,098",
+    "land_area": "16,762",
+    "nick_name": "Gateway State",
+    "date_created": "3 February 1976",
+    "preceding_entity": "Western State",
+    "lg_count": "20",
     "lga": [
       "abeokuta north",
       "abeokuta south",
@@ -706,6 +868,12 @@
   },
   "ondo": {
     "capital": "akure",
+    "population": "3,441,024",
+    "land_area": "15,500",
+    "nick_name": "Sunshine State",
+    "date_created": "3 February 1976",
+    "preceding_entity": "Western State",
+    "lg_count": "19",
     "lga": [
       "akoko north east",
       "akoko north west",
@@ -730,6 +898,12 @@
   },
   "osun": {
     "capital": "oshogbo",
+    "population": "3,423,535",
+    "land_area": "9,251",
+    "nick_name": "Land of Virtue (formerly State of the Living Spring)",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Oyo State",
+    "lg_count": "30",
     "lga": [
       "aiyedade",
       "aiyedire",
@@ -765,6 +939,12 @@
   },
   "oyo": {
     "capital": "ibadan",
+    "population": "5,591,589",
+    "land_area": "28,454",
+    "nick_name": "Pace Setter State",
+    "date_created": "3 February 1976",
+    "preceding_entity": "Western State",
+    "lg_count": "22",
     "lga": [
       "afijio",
       "akinyele",
@@ -802,6 +982,12 @@
   },
   "plateau": {
     "capital": "jos",
+    "population": "3,178,712",
+    "land_area": "30,913",
+    "nick_name": "Home of Peace and Tourism",
+    "date_created": "3 February 1976",
+    "preceding_entity": "Benue-Plateau State",
+    "lg_count": "17",
     "lga": [
       "barikin ladi",
       "bassa",
@@ -824,6 +1010,12 @@
   },
   "rivers": {
     "capital": "port harcourt",
+    "population": "5,185,400",
+    "land_area": "11,077",
+    "nick_name": "Treasure Base of the Nation",
+    "date_created": "27 May 1967",
+    "preceding_entity": "Eastern Region",
+    "lg_count": "23",
     "lga": [
       "abua/odual",
       "ahoada east",
@@ -852,6 +1044,12 @@
   },
   "sokoto": {
     "capital": "sokoto",
+    "population": "3,696,999",
+    "land_area": "25,973",
+    "nick_name": "Seat of the Caliphate",
+    "date_created": "3 February 1976",
+    "preceding_entity": "North-Western State",
+    "lg_count": "23",
     "lga": [
       "binji",
       "bodinga",
@@ -880,6 +1078,12 @@
   },
   "taraba": {
     "capital": "jalingo",
+    "population": "2,300,736",
+    "land_area": "54,473",
+    "nick_name": "Nature's Gift to the Nation",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Gongola State",
+    "lg_count": "16",
     "lga": [
       "ardo-kola",
       "bali",
@@ -901,6 +1105,12 @@
   },
   "yobe": {
     "capital": "damaturu",
+    "population": "2,321,591",
+    "land_area": "45,502",
+    "nick_name": "Pride of the Sahel",
+    "date_created": "27 August 1991",
+    "preceding_entity": "Borno State",
+    "lg_count": "17",
     "lga": [
       "bade",
       "bursari",
@@ -923,6 +1133,12 @@
   },
   "zamfara": {
     "capital": "gusau",
+    "population": "3,259,846",
+    "land_area": "39,762",
+    "nick_name": "Farming is Our Pride",
+    "date_created": "1 October 1996",
+    "preceding_entity": "Sokoto State",
+    "lg_count": "15",
     "lga": [
       "anka",
       "bakura",
@@ -943,6 +1159,12 @@
   },
   "abuja": {
     "capital": "abuja",
+    "population": "1,405,201",
+    "land_area": "7,315",
+    "nick_name": "Centre of Unity",
+    "date_created": "3 February 1976",
+    "preceding_entity": "Benue-Plateau, North-Central, and North-Western States",
+    "lg_count": "6",
     "lga": [
       "gwagwalada",
       "kuje",

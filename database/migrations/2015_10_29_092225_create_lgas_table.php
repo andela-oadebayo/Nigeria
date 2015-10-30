@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateStatesTable extends Migration
+class CreateLgasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,14 +12,15 @@ class CreateStatesTable extends Migration
      */
     public function up()
     {
-        //
-        Schema::create('states', function(Blueprint $table){
+        Schema::create('lgas', function (Blueprint $table) {
+            //
             $table->increments('id');
-            $table->char('state', 30);
-            $table->char('capital', 30);
-            $table->integer('population');
-            $table->string('space_coverage');
+            $table->integer('state_id')->unsigned();
+            $table->string('lg_name');
             $table->timestamps();
+
+            $table->foreign('state_id')->references('id')->on('states');
+
         });
     }
 
@@ -30,7 +31,9 @@ class CreateStatesTable extends Migration
      */
     public function down()
     {
-        //
-        Schema::drop('states');
+        Schema::create('lgas', function (Blueprint $table) {
+            //
+            $table->drop('lgas');
+        });
     }
 }
