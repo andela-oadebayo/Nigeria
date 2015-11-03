@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
         foreach($data as $key => $value){
             $state = State::create(
                 array(
+                    'state'             => $key,
                     'capital'           => $value['capital'],
                     'population'        => $value['population'],
                     'area'              => $value['land_area'],

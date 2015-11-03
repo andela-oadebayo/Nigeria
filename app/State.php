@@ -1,6 +1,7 @@
 <?php
 namespace App;
 use Illuminate\Database\Eloquent\Model;
+use App\Lga;
 /**
  * Created by PhpStorm.
  * User: OluwadamilolaAdebayo
@@ -10,5 +11,9 @@ use Illuminate\Database\Eloquent\Model;
 class State extends Model
 {
     protected $table = 'states';
+
+    public function lga(){
+        return $this->hasMany('App\Lga');
+    }
 
 }

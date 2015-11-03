@@ -15,4 +15,8 @@ class Lga extends Model
 {
     protected $table = 'lgas';
 
+    public function state(){
+        return $this->belongsTo('App\State');
+    }
+
 }
