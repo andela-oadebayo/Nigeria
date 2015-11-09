@@ -18,7 +18,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Nigeria": "app/src/"
+            "Nigeria": "src/App/"
         },
         "classmap": [
             "database/"
