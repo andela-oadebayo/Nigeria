@@ -14,3 +14,7 @@
 $app->get('/', function () use ($app) {
     return $app->welcome();
 });
+
+$app->group(['prefix' => 'v1/nigeria'], function($app){
+    $app->get('/states', 'App\Http\Controllers\NigeriaController@index');
+});

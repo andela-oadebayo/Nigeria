@@ -6,14 +6,14 @@
  * Time: 2:58 PM
  */
 
-namespace Transformer\Nigeria;
+namespace App\Transformers;
 
 use App\Lga;
 use League\Fractal\TransformerAbstract;
 
 class LgaTransformer extends TransformerAbstract
 {
-    public function transformer(Lga $lga){
+    public function transform(Lga $lga){
         return [
             'id'            => $lga->id,
             'lg_name'       => $lga->lg_name

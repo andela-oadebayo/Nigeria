@@ -11,6 +11,8 @@ namespace App\Http\Controllers;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Resource\Item;
 use League\Fractal\Manager;
+use League\Fractal\Pagination\Cursor;
+
 
 
 class ApiController extends Controller
@@ -54,27 +56,40 @@ class ApiController extends Controller
     protected function respondWithItem($item, $callback)
     {
         $resource = new Item($item, $callback);
-
         $rootScope = $this->fractal->createData($resource);
-
         return $this->respondWithArray($rootScope->toArray());
     }
 
-    protected function respondWithCollection($collection, $callback)
+    protected function paginate($model){
+        $current = isset($_GET['cursor']) ? (int) base64_decode($_GET['cursor']) : 0;
+        $per_page = isset($_GET['number']) ? (int) $_GET['number'] : 5;
+        $next = base64_encode((string)($current + $per_page));
+        if($current == 0){
+            $prev = 0;
+        }
+        elseif($current > 0){
+            $prev = base64_encode((string)($current - $per_page));
+        }
+        $cursor = new Cursor($current, $prev, $next, $model->count);
+
+        return array(
+            'per_page' => $per_page,
+            'current' => $current,
+            'prev' => $this->accessProtected($cursor, 'prev'),
+            'next' => $this->accessProtected($cursor, 'next')
+        );
+    }
+
+    protected function respondWithCollection($collection,$callback,$meta)
     {
         $resource = new Collection($collection, $callback);
-
         $rootScope = $this->fractal->createData($resource);
-
-        return $this->respondWithArray($rootScope->toArray());
+        return $this->respondWithArray($rootScope->toArray(), $meta);
     }
 
-    protected function respondWithArray(array $array, array $headers = [])
+    protected function respondWithArray( array $array, $meta,array $headers = [])
     {
-        $response = Response::json($array, $this->statusCode, $headers);
-
-        // $response->header('Content-Type', 'application/json');
-
+        $response = response()->json( array_merge($meta,$array), $this->statusCode, $headers);
         return $response;
     }
 
@@ -151,5 +166,11 @@ class ApiController extends Controller
             ->respondWithError($message, self::CODE_WRONG_ARGS);
     }
 
+    protected function accessProtected($obj, $prop) {
+        $reflection = new \ReflectionClass($obj);
+        $property = $reflection->getProperty($prop);
+        $property->setAccessible(true);
+        return $property->getValue($obj);
+    }
 
 }

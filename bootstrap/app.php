@@ -28,6 +28,9 @@ $app = new Laravel\Lumen\Application(
  $app->withEloquent();
 
 App::environment()?: 'production';
+$app->configure('jwt');
+
+class_alias('Tymon\JWTAuth\Facades\JWTAuth', 'JWTAuth');
 /*
 |--------------------------------------------------------------------------
 | Register Container Bindings
@@ -73,9 +76,10 @@ $app->singleton(
 //     // Laravel\Lumen\Http\Middleware\VerifyCsrfToken::class,
 // ]);
 
-// $app->routeMiddleware([
-
-// ]);
+ $app->routeMiddleware([
+     'jwt.auth'    => Tymon\JWTAuth\Middleware\GetUserFromToken::class,
+     'jwt.refresh' => Tymon\JWTAuth\Middleware\RefreshToken::class,
+ ]);
 
 /*
 |--------------------------------------------------------------------------
@@ -90,6 +94,7 @@ $app->singleton(
 
 //$app->register('App\Providers\AppServiceProvider');
 // $app->register(App\Providers\EventServiceProvider::class);
+$app->register('Tymon\JWTAuth\Providers\JWTAuthServiceProvider');
 
 /*
 |--------------------------------------------------------------------------

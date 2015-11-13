@@ -14,6 +14,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         //
+        'BasicIT\LumenVendorPublish\VendorPublishCommand'
+
     ];
 
     /**
@@ -26,4 +28,5 @@ class Kernel extends ConsoleKernel
     {
         //
     }
+
 }
